@@ -1,0 +1,27 @@
+.guessBox {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+
+    border: 2px solid gray;
+    border-radius: 3px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.unchecked {
+    background-color: white;
+}
+.incorrect {
+    background-color: gray;
+}
+.correctLetter {
+    background-color: yellow;
+}
+.correctLetterIndex {
+    background-color: green;
+}
